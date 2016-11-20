@@ -16,8 +16,8 @@ function damage() {
 };
 //placeholders
 function game() {
-  var youDmgTotal = 0;
-  var enemyDmgTotal = 0;
+	var youDmgTotal = 0;
+	var enemyDmgTotal = 0;
 	while (combat) {
 		var rollHit = randomBool();
 		var rollDmg = damage();

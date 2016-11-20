@@ -75,11 +75,11 @@ h1 {
 }
 #dropBox:hover {
 	position: relative;
-  top: -2px;
+	top: -2px;
 }
 #dropBox:active {
 	position: relative;
-  top: 2px;
+	top: 2px;
 }
 #fightBox {
 	width: 75px;
@@ -92,11 +92,11 @@ h1 {
 }
 #fightBox:hover {
 	position: relative;
-  top: -2px;
+	top: -2px;
 }
 #fightBox:active {
 	position: relative;
-  top: 2px;
+	top: 2px;
 }
 #gameBox {
 	height: 200px;
