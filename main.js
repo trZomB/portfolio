@@ -74,5 +74,7 @@ dropBox.onclick = function() {
 
 var fightBox = document.getElementById('fightBox');
 fightBox.onclick = function() {
+    document.getElementById("gameBox").innerHTML = '';
+    combat = true;
     game();
 };
