@@ -74,3 +74,7 @@ fightBox.onclick = function() {
 	combat = true;
 	game();
 };
+var resetBox = document.getElementById('resetBox');
+resetBox.onclick = function() {
+	document.getElementById("gameBox").innerHTML = 'Press the Fight! button to begin.';
+};
