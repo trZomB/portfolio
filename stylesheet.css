@@ -1,0 +1,99 @@
+/* Universal */
+
+* {
+	color: white;
+	font-family: sans-serif;
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+/* HTML */
+
+html, body {
+	height: 100%;
+}
+body {
+	background-color: #253237;
+}
+h1 {
+	font-family: 'Yellowtail', cursive;
+	font-weight: lighter;
+	letter-spacing: 2px;
+	text-shadow: 2px 1px 4px black;
+	text-transform: uppercase;
+}
+
+/* Classes */
+
+.bannerBox {
+	height: 300px;
+	width: 100%;
+	background-color: #5c6b73;
+	line-height: 300px;
+	text-align: center;
+}
+.bodyBox {
+	height: 100%;
+	width: 80%;
+	background-color: #5c6b73;
+	margin: 130px auto;
+	padding: 20px;
+	position: relative;
+}
+.circleWrapper {
+	height: 200px;
+	width: 200px;
+	margin: auto;
+	position: relative;
+	top: -100px;
+	z-index: 1;
+}
+.circlePhoto {
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+}
+.headerBox {
+	height: 50px;
+	width: 90%;
+	background-color: #333533;
+	line-height: 50px;
+	margin: auto;
+	text-align: center;
+}
+#dropBox {
+	height: 50px;
+	width: 90%;
+	background-color: #333533;
+	line-height: 50px;
+	margin: auto;
+	text-align: center;
+}
+#dropBox {
+	cursor: pointer;
+}
+#dropBox:hover {
+	position: relative;
+	top: -2px;
+}
+#dropBox:active {
+	position: relative;
+	top: 2px;
+}
+#boxAlign {
+	text-align: center;
+}
+#secretBox {
+	height: 88%;
+	width: 90%;
+	background-color: #1F2732;
+	display: none;
+	line-height: 30px;
+	margin: auto;
+	text-align: center;
+}
+.styleQuote {
+	font-style: italic;
+	text-align: right;
+}
